@@ -25,5 +25,6 @@ Route::get('/store', function () {
 Route::get('/index/{id}',function($age){ 
     return "Mon age est :  $age ans"; }); 
     
-    Route::get('/index/{id}/{name}',function($id,$name){ 
-        return "ID : $id <br> Name : $name"; });
+
+Route::get('/index/{id}/{name}',function($id,$name){ 
+     return "ID : $id <br> Name : $name"; });
