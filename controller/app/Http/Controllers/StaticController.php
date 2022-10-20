@@ -17,4 +17,8 @@ class StaticController extends Controller
     public function store() {
         return "<h1>store</h1>";
     }
-}
+      public function update(Request $request, $id)
+    {
+        return "<h1>Mise à jour de la promotion numéro ".$id."</h1>";
+    }
+
